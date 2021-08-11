@@ -6,11 +6,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Card Profile</title>
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-  <img src="./assets/images/bg-pattern-top.svg" alt="top-circle">
-  <img src="./assets/images/bg-pattern-bottom.svg" alt="bootom-circle">
+  <img src="./assets/images/bg-pattern-top.svg" class="bg-image bg-image--top" alt="top-circle">
+  <img src="./assets/images/bg-pattern-bottom.svg" class="bg-image bg-image--bottom" alt="bootom-circle">
+
+  <article class="card">
+    <header class="card__header">
+      <img src="./assets/images/bg-pattern-card.svg" alt="pattern card" class="card__header-image" />
+      <img src="./assets/images/image-victor.jpg" alt="profile image" class="card__header-profile" />
+    </header>
+    <section class="card__body">
+      <p class="card__text">Victor Crest
+        <span class="card__text card__text--light">26</span>
+      </p>
+      <p class="card__text card__text--light">London</p>
+    </section>
+    <footer class="card__footer">
+      <div class="card__stats">
+        <p class="card__number">80k</p>
+        <p class="card__text card__text--light">Followers</p>
+      </div>
+      <div class="card__stats">
+        <p class="card__number">803k</p>
+        <p class="card__text card__text--light">Likes</p>
+      </div>
+      <div class="card__stats">
+        <p class="card__number">1.4k</p>
+        <p class="card__text card__text--light">Photos</p>
+      </div>
+    </footer>
+  </article>
 
 </body>
 
